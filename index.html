@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/thumbnails/007/166/964/small/versus-or-vs-logo-design-template-vector.jpg" type="image/x-icon">
+    <title>SignUp</title>
+</head>
+<body>
+    
+<div class="Firstblock">
+    <img id="x" src="img/satellite.png" alt="">
+    <h1 id="v">Viewspace</h1>
+    <h1 id="h"><span id="s">Signup</span></i>-OR-<span id="l">Login</span></h1>
+    <div class="Signup">
+        <form id="form">
+            <h2>SignUp</h2>
+            Email:  <input type="email" id="name"placeholder="Enter your Email ID"><br>
+            password:   <input type="password" id="password"placeholder="Enter the password"><br>
+            Confirm password:  <input type="password" id="Cpassword"placeholder="Enter the confirm password"><br>
+
+            <button onclick="sign()" id="sp">Sign Up</button>
+            <ul>
+                <li><i class="fa-brands fa-chrome"></i>Sign up with Google</li>
+                <li><i class="fa-brands fa-apple"></i>Sign up with Apple Id</li>
+                <li><i class="fa-brands fa-twitter"></i>Sign up with Twitter</li>
+            </ul>
+            <p id="p">If you have already account <a href="#">Log in</a> </p>
+        </form>
+    </div>
+
+
+    <div class="login">
+        <form id="form1">
+            <h2 id="h2">Login</h2>
+            Email:  <input type="email" id="name1"placeholder="Enter your Email ID"><br>
+            password:   <input type="password" id="password1"placeholder="Enter your password"><br>
+            <a href="#" id="for">Forgot password</a>
+            <button onclick="log()" id="ln">Log In</button>
+            <p id="p1">If you don't have account <a href="#">Sign up</a> </p>
+        </form>
+    </div>
+</div>
+
+<div class="ad">
+    <h3>SignUp</h3>
+</div>
+<div class="ad1">
+    <h3>Log in</h3>
+</div>
+
+
+<div class="submit">
+    <img src="img/thanks.png" alt="">
+    <button id="modal"onclick="next()">OK</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

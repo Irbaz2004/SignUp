@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.html,body{
+    overflow-x: hidden;
+}
+
+h1 {
+    position: absolute;
+    left: 38%;
+    top: 39%;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    color: white;
+    text-shadow: 11px 11px 4px black;
+
+}
+
+
+i {
+    font-size: 70px;
+    margin: 0px 40px;
+}
+
+
+
+
+.Firstblock {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://wallpapers.com/images/hd/black-space-xpmrvus286d8e3tb.jpg);
+    background-size: cover;
+}
+
+.Signup {
+    position: absolute;
+    height: 73vh;
+    width: 30%;
+    border: 1px solid white;
+    text-align: center;
+    left: 5%;
+    top: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    animation-name: si;
+    animation-duration: 2s;
+}
+
+@keyframes si {
+    0% {
+        top: 77%;
+    }
+
+    100% {
+        top: 7%;
+    }
+
+}
+
+input {
+    margin-bottom: 5%;
+    height: 25px;
+    width: 50%;
+    border-radius: 3px;
+    border: none;
+}
+
+h2 {
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+p {
+    margin-top: 6%;
+}
+
+button {
+    height: 30px;
+    width: 20%;
+    font-size: 15px;
+    margin-top: 3%;
+    background-color: navy;
+    border: 1px solid navy;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    border: 1px solid black;
+}
+
+#name {
+    margin-right: -24.5%;
+}
+
+#password {
+    margin-right: -16.5%;
+}
+
+input::placeholder {
+    padding-left: 3%;
+}
+
+
+
+
+.login {
+    position: absolute;
+    height: 50vh;
+    width: 30%;
+    border: 1px solid white;
+    margin-left: 66%;
+    margin-top: 7.5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    animation-name: lo;
+    animation-duration: 2s;
+  
+}
+
+@keyframes lo {
+    0% {
+        margin-top: -18.7%;
+    }
+
+    100% {
+        margin-top: 8.7%;
+
+    }
+}
+
+#name1 {
+    margin-left: 5%;
+}
+
+#for {
+    font-size: 15px;
+    margin-right: 3%;
+}
+
+#ln {
+    margin-right: 20%;
+}
+
+#p1 {
+    margin-top: 7%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    height: 30px;
+    width: 80%;
+    background-color: black;
+    /* border: 1px solid white; */
+    border-radius: 90px;
+    margin-left: 10.5%;
+    margin-top: 3%;
+    cursor: pointer;
+    color: white;
+}
+
+li:hover {
+    background-color: white;
+    transition: .7s all ease;
+    color: black;
+}
+
+i {
+    font-size: 20px;
+    margin-left: -5%;
+    margin-top: 1%;
+}
+
+
+#name1 {
+    margin-top: 15%;
+}
+
+span {
+    cursor: pointer;
+}
+
+#h2 {
+    margin-bottom: -10%;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.ad {
+    height: 10vh;
+    width: 30%;
+    /* border: 1px solid black; */
+    border-bottom: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    margin-top: -4.6%;
+    margin-left: 5%;
+    background-color: rgba(0, 0, 0, 0.479);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    color: white;
+    box-shadow:inset 2px 2px 1px white;
+
+}
+
+.ad1 {
+    height: 10vh;
+    width: 30%;
+    /* border: 1px solid black; */
+    border-top: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    margin-top: -45.2%;
+    margin-left: 65%;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    box-shadow:inset 2px 2px 1px white;
+
+}
+
+
+
+.submit {
+    height: 40vh;
+    width: 35%;
+    background-color: white;
+    margin-left: 32%;
+    border-radius: 20px;
+    box-shadow: 11px 11px 10px black;
+    display: none;
+}
+
+#modal {
+    margin-left: 40%;
+    margin-top: -8%;
+    cursor: pointer;
+}
+
+img {
+    height: 30vh;
+    margin-left: 5%;
+}
+
+a {
+    color: white;
+}
+
+#v {
+    margin-top: -5%;
+    margin-left: 5%;
+    color: rgb(80, 80, 80);
+    text-shadow: 11px 11px 14px black;
+    animation-name: v;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+@keyframes v {
+    0% {
+        color: rgb(204, 203, 203);
+    }
+
+    50% {
+        color: rgb(71, 71, 71);
+    }
+
+    75% {
+        color: black;
+    }
+
+    100% {
+        color: rgb(53, 52, 52);
+    }
+}
+
+
+
+#x{
+    height: 30vh;
+    margin-top: 7%;
+    margin-left: -20%;
+    animation-name: x;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes x{
+    0%{
+margin-top: 30%;
+margin-left: 78%;
+    }
+    100%{
+        
+    margin-top: 7%;
+    margin-left: -20%;
+    }
+}
+
